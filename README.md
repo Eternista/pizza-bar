@@ -1,4 +1,11 @@
-# React + TypeScript + Vite
+# PIZZA BAR: React + TypeScript + Vite
+
+# PROJECT DESCRIPION
+
+This is project for "Ultimate React Course" -> Pizza Bar
+Goal of creation it is React / Vite / Typescript with best practics
+
+# SETTING DESCRIPTIONS
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
