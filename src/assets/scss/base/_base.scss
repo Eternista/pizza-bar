@@ -1,0 +1,26 @@
+#root {
+    background-color: #333;
+}
+
+.logo {
+    @include logoFont();
+    margin: 10px 0 0;
+    font-size: $baseFont*3;
+    line-height: 1;
+}
+
+.line {
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+    &-white {
+        background-color: white;
+    }
+}
+
+.page {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: $radius;
+}
