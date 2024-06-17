@@ -1,3 +1,9 @@
 export const Header = () => {
-  return <header>Header</header>;
+  return <header className="container">
+    <div className="row">
+      <div className="col-12 text-center">
+        <h1 className="logo text-white"><span>Pizza Bravo</span></h1>
+      </div>
+    </div>
+  </header>;
 };

@@ -1,0 +1,14 @@
+#root {
+    background-color: #333;
+}
+
+.logo {
+    @include logoFont();
+    margin: 0;
+    font-size: $baseFont*3;
+    line-height: 1;
+    span {
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+}

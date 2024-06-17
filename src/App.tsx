@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/scss/main.scss';
 import { Header } from './components/partials/Header';
-import './App.css';
 
 function App() {
+
   return <>
     <Header />
   </>;
