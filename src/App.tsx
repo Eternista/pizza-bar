@@ -7,6 +7,9 @@ function App() {
 
   return <>
     <Header />
+    <main className='page container'>
+      
+    </main>
   </>;
 }
 
