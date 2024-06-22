@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { LineSeparator } from '../extras/LineSeparator';
 import { AddToCard } from '../../hooks/AddToCard';
 
@@ -11,10 +11,10 @@ interface PizzaProps {
 }
 
 export const SinglePizza = ({...props} : PizzaProps) => {
-    const [CardData, setCardData] = useState({
+    const CardData = {
         id: props.id,
         name: props.name,
-    });
+    };
 
     return (
         <div className="d-flex single-pizza">
